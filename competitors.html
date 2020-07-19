@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Competitors</title>
+	<link rel="stylesheet" href="competitors.css">
+	<script>
+        function changelist(status_) {
+            console.log("testing");
+             var changetext= document.getElementById("lists_div");
+                 
+                if(status_==0){
+                    changetext.innerHTML= "<h1 class=\"headings\">FEATHERWEIGHT</h1>PLéo Santa Cruz Super champion Mexico 37–1–1 (19 KO) January 28, 2017<br><br>Gary Russell Jr. United States 31–1 (18 KO) March 28, 2015<br><br>	Josh Warrington United Kingdom 30–0 (7 KO) May 19, 2018<br><br>Xu Can Regular champion China 18–2 (3 KO) January 26, 2019.";
+                }
+                else if(status_==1){
+                    changetext.innerHTML="<h1 class=\"headings\">LIGHTWEIGHT</h1> asdeasdasasd Vasyl Lomachenko Super champion Ukraine 14–1 (10 KO) May 12, 2018<br><br>	Devin Haney United States 24–0 (15 KO) October 23, 2019<br><br>	Teófimo López United States 15–0 (12 KO) December 14, 2019<br><br>Gervonta Davis Regular champion United States 23–0 (22 KO) December 28, 2019.";
+                }
+                else if(status_==2){
+                    changetext.innerHTML= "<h1 class=\"headings\">CRUISERWEIGHT</h1>Beibut Shumenov Regular champion Kazakhstan 18–2 (12 KO) August 31, 2019<br><br>	Ilunga Makabu Democratic Republic of the Congo 27–2 (24 KO) January 31, 2020<br><br>Ryad Merhy Interim champion Belgium 29–1 (24 KO) October 19, 2019.";
+                }
+                else if(status_==3){ 
+                    changetext.innerHTML="<h1 class=\"headings\">HEAVYWEIGHT</h1>Manuel Charr Regular champion Syria 31–4 (17 KO) November 25, 2017<br><br>	Tyson Fury United Kingdom 30–0–1 (21 KO) February 22, 2020<br><br>Trevor Bryan Interim champion United States 20–0 (14 KO) August 11, 2018<br><br> Dillian Whyte Interim champion United Kingdom 27–1 (18 KO) July 20, 2019";
+                }
+        } //end of function
+	</script>
+<body>
+	<div id="container_">
+        <div id="buttons_div">
+	    	<button onclick="changelist(0);">FEATHERWEIGHT</button>
+		    <button onclick="changelist(1);">LIGHTWEIGHT</button>
+		    <button onclick="changelist(2);">CRUISERWEIGHT</button>
+            <button onclick="changelist(3);">HEAVYWEIGHT</button>
+        </div>
+        <div id="lists_div"></div>
+	</div>		
+
+	<div class="menu-bar">
+		<ul>			
+			<li class="active"><a href="file:///C:/Users/Anton/Desktop/Anton/w3schools/menu/dropmenu.html">Home</a></li>			
+			<li class="active"><a href="events.html">Events</a></li>
+			<li class="active"><a href="competitors.html">Competitors</a></li>
+			<li class="active"><a href="#">Contact</a></li>
+		</ul>
+</body>
+</head>
+</html>

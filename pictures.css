@@ -1,0 +1,69 @@
+*
+{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body
+{
+	background-image: url(dressroom.jpg);
+	background-size: cover;
+	background-position: top;
+	font-family: sans-serif;
+}
+.menu-bar
+{
+	position: absolute;
+	width: 100%;
+	height: 20%;
+	top: 0;
+	left: 0;
+	text-align: center;
+	padding: -10px;
+	padding-top: 10px;
+	padding-right: 160px;
+	opacity: 1;
+}
+.menu-bar ul
+{
+	display: inline-flex;
+	list-style: none;
+	color: #fff
+}
+.menu-bar ul li
+{
+		width: 100%;
+		margin-left: 200px;
+		padding: 15px;
+}
+.menu-bar ul li a
+{
+	text-decoration: none;
+	color: #000;
+}
+
+#womenbox img {
+	position: relative;
+	top: 80px;
+	right: 200px;
+	left: 100px;
+	top: 100px;
+	bottom: 200px;
+	width: 600px;
+	height: 500px;
+	border: 3px solid white;
+	opacity: 0.9;
+}
+
+#menbox img {
+	position: absolute;
+	top: 80px;
+	right: 100px;
+	left: 100;
+	top: 100px;
+	bottom: 200px;
+	width: 600px;
+	height: 500px;
+	border: 3px solid white;
+	opacity: 0.9;
+}
